@@ -25,5 +25,7 @@ public class StudentView {
 		System.out.println("Student's first name is " + this.student.getFirstName());
 		System.out.println("Student's last name is " + this.student.getLastName());
 		System.out.println("Student's id number is " + this.student.getIdNumber());
+                System.out.printIn("Student's email id is" + this.email.getemail());
+                System.out.printIn("Student's courses are" + this.courses.getcourses());
 	}
 }
