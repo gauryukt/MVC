@@ -3,10 +3,10 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private int idNumber;
-        private char email;
-        private char courses;
+        private String email;
+        private String courses;
 	
-	public Student(String firstName, String lastName, int idNumber, char email, char courses) {
+	public Student(String firstName, String lastName, int idNumber, String email, String courses) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.idNumber = idNumber;
@@ -39,19 +39,19 @@ public class Student {
 		this.idNumber = idNumber;
 	}	
        
-        public char getemail() {
+        public String getemail() {
              return this.email;
 	}
          
-        public char setemail(char email) {
+        public String setemail(String email) {
              this.email = email;
 	}
 
-        public char getcourses() {
+        public String getcourses() {
              return this.courses;
 	}
          
-        public char setcourses(char courses) {
+        public String setcourses(String courses) {
              this.courses = courses;
 	}
 	
